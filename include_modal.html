@@ -1,0 +1,26 @@
+<div id="modal-sections" uk-modal="center: true">
+  <div class="uk-modal-dialog">
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <div class="uk-modal-body">
+        <h2 class="uk-modal-title modalform-title">Instagran</h2>
+        <form action="login_act.php" method="post" class="uk-form-horizontal uk-margin-large">
+          <div class="uk-margin">
+              <label class="uk-form-label form-text" for="form-horizontal-text">ID</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input form-input" id="form-horizontal-text" type="text" name="lid" placeholder="please enter your ID">
+              </div>
+          </div>
+          <div class="uk-margin">
+              <label class="uk-form-label form-text" for="form-horizontal-text">Password</label>
+              <div class="uk-form-controls">
+                  <input class="uk-input form-input" id="form-horizontal-text" type="password" name="lpw" placeholder="please enter your password">
+              </div>
+          </div>
+          <div class="button-wrapper">
+            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+            <input type="submit" class="uk-button uk-button-primary" value="Login">
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
